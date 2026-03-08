@@ -1,7 +1,7 @@
 :root {
     --primary-red: rgb(32, 146, 190);
     --primary-red-dark: #1195ce;
-    --primary-red-light: #ef4444;
+    --primary-red-light: rgb(38, 51, 56);
     --black: #000000;
     --dark-gray: #1a1a1a;
     --medium-gray: #2d2d2d;
@@ -41,14 +41,14 @@ body {
     width: 100%;
     background: rgba(0, 0, 0, 0.95);
     backdrop-filter: blur(10px);
-    box-shadow: 0 2px 20px rgba(220, 38, 38, 0.3);
+    box-shadow: 0 2px 20px rgba(6, 100, 119, 0.3);
     z-index: 1000;
     transition: all 0.3s ease;
 }
 
 .navbar.scrolled {
     background: rgba(0, 0, 0, 1);
-    box-shadow: 0 4px 30px rgba(220, 38, 38, 0.5);
+    box-shadow: 0 4px 30px rgba(65, 108, 117, 0.5);
 }
 
 .nav-container {
@@ -149,7 +149,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     border: 4px solid var(--primary-red);
-    box-shadow: 0 0 40px rgba(220, 38, 38, 0.5);
+    box-shadow: 0 0 40px rgba(51, 119, 150, 0.5);
     animation: float 3s ease-in-out infinite;
 }
 
@@ -219,13 +219,13 @@ body {
 .btn-primary {
     background: var(--primary-red);
     color: var(--text-white);
-    box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+    box-shadow: 0 4px 15px rgba(17, 181, 210, 0.4);
 }
 
 .btn-primary:hover {
     background: var(--primary-red-dark);
     transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(220, 38, 38, 0.6);
+    box-shadow: 0 6px 25px rgba(8, 45, 46, 0.6);
 }
 
 .btn-secondary {
@@ -237,7 +237,7 @@ body {
 .btn-secondary:hover {
     background: var(--primary-red);
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+    box-shadow: 0 4px 15px rgba(47, 114, 126, 0.4);
 }
 
 .social-links {
@@ -262,7 +262,7 @@ body {
 .social-links a:hover {
     background: var(--primary-red);
     transform: translateY(-5px);
-    box-shadow: 0 5px 20px rgba(220, 38, 38, 0.5);
+    box-shadow: 0 5px 20px rgba(63, 114, 126, 0.5);
 }
 
 .scroll-indicator {
@@ -364,7 +364,7 @@ body {
 .stat-item:hover {
     border-color: var(--primary-red);
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(220, 38, 38, 0.3);
+    box-shadow: 0 10px 30px rgba(169, 183, 190, 0.3);
 }
 
 .stat-number {
@@ -734,7 +734,7 @@ body {
 .academic-project-card:hover {
     border-color: var(--primary-red);
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(220, 38, 38, 0.3);
+    box-shadow: 0 10px 30px rgba(38, 162, 220, 0.3);
 }
 
 .academic-icon {
@@ -811,7 +811,7 @@ body {
 .education-card:hover {
     border-color: var(--primary-red);
     transform: translateX(10px);
-    box-shadow: 0 10px 30px rgba(220, 38, 38, 0.3);
+    box-shadow: 0 10px 30px rgba(147, 164, 170, 0.3);
 }
 
 .edu-icon {
@@ -882,7 +882,7 @@ body {
 .testimonial-card:hover {
     border-color: var(--primary-red);
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(220, 38, 38, 0.3);
+    box-shadow: 0 10px 30px rgba(103, 201, 218, 0.3);
 }
 
 .quote-icon {
@@ -947,7 +947,7 @@ body {
 .contact-card:hover {
     border-color: var(--primary-red);
     transform: translateX(5px);
-    box-shadow: 0 5px 20px rgba(220, 38, 38, 0.3);
+    box-shadow: 0 5px 20px rgba(69, 192, 203, 0.3);
 }
 
 .contact-icon {
@@ -1025,7 +1025,7 @@ body {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-red);
-    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.2);
+    box-shadow: 0 0 0 3px rgba(153, 212, 224, 0.2);
 }
 
 .form-group textarea {
@@ -1045,7 +1045,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    box-shadow: 0 10px 40px rgba(220, 38, 38, 0.5);
+    box-shadow: 0 10px 40px rgba(62, 177, 205, 0.5);
 }
 
 .form-success.show {
@@ -1163,7 +1163,7 @@ body {
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(220, 38, 38, 0.3);
+        box-shadow: 0 10px 27px rgba(41, 208, 220, 0.3);
         padding: 2rem 0;
         gap: 0;
         border-top: 2px solid var(--primary-red);
